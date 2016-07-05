@@ -1,4 +1,17 @@
+//Create React create class
+var Greeter = React.createClass({
+  //Render method: Only thing required in a react Component.
+  render: function(){
+    return (
+      <div>
+        <h1>Hello React</h1>
+      </div>
+    );
+  }
+});
+
+
 ReactDOM.render(
-  <h1>Hello React!</h1>,
+  <Greeter/>,
   document.getElementById('app')
 );
